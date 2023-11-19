@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+const bgColor = Color(0xffFFFFFF);
+const lite1BlackColor = Color(0xff4A4A4A);
+const bluColor = Color(0xff003362);
+const liteGrayColor = Color(0xffD6D6D6);
+const liteblueColor = Color(0xff4D46A0);
+const lite2blackColor = Color(0xff5F5F5F);
+const redColor = Color(0xffB94242);
+const liteGray2Color = Color(0xffD6D6D6);
+const liteGray3Color = Color(0xffAFAFAF);
+const liteGray4Color = Color(0xffD9D9D9);
+const liteGray5Color = Color(0xff5F5F5F);
+const liteblue1Color = Color(0xff215B92);
+const litegreenColor = Color(0xffB1C4D4);
+const litegray6Color = Color(0xff797979);
+const liteblack3Color = Color(0xff7B7B7B);
+const litegray7Color = Color(0xff757575);
+const litegreen2Color = Color(0xffB1C3D4);
+const litegray8Color = Color(0xffCBCBCB);
+const litegray9Color = Color(0xff5B5B5B);
+const litegray10Color = Color(0xff989898);
