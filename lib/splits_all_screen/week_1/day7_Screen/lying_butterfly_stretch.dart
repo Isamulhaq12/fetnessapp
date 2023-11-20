@@ -3,14 +3,14 @@ import 'package:new_app/consts/colors.dart';
 import 'package:new_app/consts/images.dart';
 import 'package:new_app/custom_widget/my_text.dart';
 
-class HalfLocust extends StatefulWidget {
-  const HalfLocust({super.key});
+class LyingButterflyScreen extends StatefulWidget {
+  const LyingButterflyScreen({super.key});
 
   @override
-  State<HalfLocust> createState() => _HalfLocustState();
+  State<LyingButterflyScreen> createState() => _LyingButterflyScreenState();
 }
 
-class _HalfLocustState extends State<HalfLocust> {
+class _LyingButterflyScreenState extends State<LyingButterflyScreen> {
   int min = 00;
   int second = 00;
 
@@ -51,13 +51,13 @@ class _HalfLocustState extends State<HalfLocust> {
                 color: litegray8Color,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Image.asset(hlp, fit: BoxFit.cover),
+              child: Image.asset(lyingButterfly2,),
             ),
             const SizedBox(
               height: 10,
             ),
             const MyText(
-              text: "Half Locust Pose",
+              text: "Lying Butterfly Stretch",
               fontBold: FontWeight.bold,
               fontSize: 18,
             ),
@@ -105,7 +105,7 @@ class _HalfLocustState extends State<HalfLocust> {
               fontBold: FontWeight.bold,
               fontSize: 18,
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(height: 10,),
             const MyText(
               text:
               "Lorem ipsum dolor sit amet consectetur."
@@ -122,8 +122,8 @@ class _HalfLocustState extends State<HalfLocust> {
             Row(
               children: [
                 Container(
-                  height: 30,
-                  width: 30,
+                  height: 35,
+                  width: 35,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: litegray10Color
@@ -134,8 +134,8 @@ class _HalfLocustState extends State<HalfLocust> {
                 const MyText(text: "1/5",fontSize: 18,),
                 const SizedBox(width: 6,),
                 Container(
-                  height: 30,
-                  width: 30,
+                  height: 35,
+                  width: 35,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: litegreen2Color
@@ -145,7 +145,7 @@ class _HalfLocustState extends State<HalfLocust> {
                 const Spacer(),
                 Container(
                   height:45,
-                  width: 100,
+                  width: 80,
                   decoration: BoxDecoration(
                     color: litegreen2Color,
                     borderRadius: BorderRadius.circular(25),

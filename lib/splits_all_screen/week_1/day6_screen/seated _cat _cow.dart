@@ -3,14 +3,14 @@ import 'package:new_app/consts/colors.dart';
 import 'package:new_app/consts/images.dart';
 import 'package:new_app/custom_widget/my_text.dart';
 
-class HalfLocust extends StatefulWidget {
-  const HalfLocust({super.key});
+class SeatedCatCow extends StatefulWidget {
+  const SeatedCatCow({super.key});
 
   @override
-  State<HalfLocust> createState() => _HalfLocustState();
+  State<SeatedCatCow> createState() => _SeatedCatCowState();
 }
 
-class _HalfLocustState extends State<HalfLocust> {
+class _SeatedCatCowState extends State<SeatedCatCow> {
   int min = 00;
   int second = 00;
 
@@ -51,13 +51,13 @@ class _HalfLocustState extends State<HalfLocust> {
                 color: litegray8Color,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Image.asset(hlp, fit: BoxFit.cover),
+              child: Image.asset(animation, fit: BoxFit.cover),
             ),
             const SizedBox(
               height: 10,
             ),
             const MyText(
-              text: "Half Locust Pose",
+              text: "Seated Cat Cow",
               fontBold: FontWeight.bold,
               fontSize: 18,
             ),
@@ -105,28 +105,28 @@ class _HalfLocustState extends State<HalfLocust> {
               fontBold: FontWeight.bold,
               fontSize: 18,
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(height: 10,),
             const MyText(
               text:
-              "Lorem ipsum dolor sit amet consectetur."
-                  " Pretium sit penatibus tortor vulputate auctor placerat aliquam."
-                  " Lacinia accumsan cum tellus mauris sed cursus nisl aliquet urna."
-                  " Ac volutpat in gravida orci.",textColor: litegray9Color,fontSize: 14,
+                  "Lorem ipsum dolor sit amet consectetur."
+                      " Pretium sit penatibus tortor vulputate auctor placerat aliquam."
+                      " Lacinia accumsan cum tellus mauris sed cursus nisl aliquet urna."
+                      " Ac volutpat in gravida orci.",textColor: litegray9Color,fontSize: 14,
             ),
             const SizedBox(height: 20,),
             const MyText(
               text:
-              "Lorem ipsum dolor sit amet consectetur. Eu tempor sem eget sagittis nunc eleifend.",textColor: litegray9Color,fontSize: 14,
+                  "Lorem ipsum dolor sit amet consectetur. Eu tempor sem eget sagittis nunc eleifend.",textColor: litegray9Color,fontSize: 14,
             ),
             const Spacer(),
             Row(
               children: [
                 Container(
-                  height: 30,
-                  width: 30,
+                  height: 35,
+                  width: 35,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: litegray10Color
+                    borderRadius: BorderRadius.circular(20),
+                    color: litegray10Color
                   ),
                   child: const Icon(Icons.arrow_back,color: Colors.white,),
                 ),
@@ -134,8 +134,8 @@ class _HalfLocustState extends State<HalfLocust> {
                 const MyText(text: "1/5",fontSize: 18,),
                 const SizedBox(width: 6,),
                 Container(
-                  height: 30,
-                  width: 30,
+                  height: 35,
+                  width: 35,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: litegreen2Color
@@ -145,7 +145,7 @@ class _HalfLocustState extends State<HalfLocust> {
                 const Spacer(),
                 Container(
                   height:45,
-                  width: 100,
+                  width: 80,
                   decoration: BoxDecoration(
                     color: litegreen2Color,
                     borderRadius: BorderRadius.circular(25),

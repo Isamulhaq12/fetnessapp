@@ -9,6 +9,8 @@ import 'package:new_app/splits_all_screen/week_1/day2_screen/day_2.dart';
 import 'package:new_app/splits_all_screen/week_1/day3_screen/day_3.dart';
 import 'package:new_app/splits_all_screen/week_1/day4/rest_day.dart';
 import 'package:new_app/splits_all_screen/week_1/day5_screen/day_5.dart';
+import 'package:new_app/splits_all_screen/week_1/day6_screen/day_6.dart';
+import 'package:new_app/splits_all_screen/week_1/day7_Screen/day_7.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class BeginnerPlanScreen extends StatelessWidget {
@@ -117,14 +119,18 @@ class BeginnerPlanScreen extends StatelessWidget {
                     MyCustomContainer2(
                       text: "Day 6",
                       indicatorText: '0',
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(context,MaterialPageRoute(builder:  (context) => Day6Screen(),));
+                      },
                     ),
                     const SizedBox(height: 10,),
                     ///day 7
                     MyCustomContainer2(
                       text: "Day 7",
                       indicatorText: '0',
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => Day7Screen(),));
+                      },
                     ),
                   ],
                 ),

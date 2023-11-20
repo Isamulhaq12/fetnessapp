@@ -3,14 +3,14 @@ import 'package:new_app/consts/colors.dart';
 import 'package:new_app/consts/images.dart';
 import 'package:new_app/custom_widget/my_text.dart';
 
-class ChairScreen extends StatefulWidget {
-  const ChairScreen({super.key});
+class Chair extends StatefulWidget {
+  const Chair({super.key});
 
   @override
-  State<ChairScreen> createState() => _ChairScreenState();
+  State<Chair> createState() => _ChairState();
 }
 
-class _ChairScreenState extends State<ChairScreen> {
+class _ChairState extends State<Chair> {
   int min = 00;
   int second = 00;
 

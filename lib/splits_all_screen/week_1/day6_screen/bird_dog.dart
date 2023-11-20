@@ -3,14 +3,14 @@ import 'package:new_app/consts/colors.dart';
 import 'package:new_app/consts/images.dart';
 import 'package:new_app/custom_widget/my_text.dart';
 
-class HalfLocust extends StatefulWidget {
-  const HalfLocust({super.key});
+class BirdDogScreen extends StatefulWidget {
+  const BirdDogScreen({super.key});
 
   @override
-  State<HalfLocust> createState() => _HalfLocustState();
+  State<BirdDogScreen> createState() => _BirdDogScreenState();
 }
 
-class _HalfLocustState extends State<HalfLocust> {
+class _BirdDogScreenState extends State<BirdDogScreen> {
   int min = 00;
   int second = 00;
 
@@ -51,13 +51,13 @@ class _HalfLocustState extends State<HalfLocust> {
                 color: litegray8Color,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Image.asset(hlp, fit: BoxFit.cover),
+              child: Image.asset(birdDog2, fit: BoxFit.cover,),
             ),
             const SizedBox(
               height: 10,
             ),
             const MyText(
-              text: "Half Locust Pose",
+              text: "Bird Dog",
               fontBold: FontWeight.bold,
               fontSize: 18,
             ),

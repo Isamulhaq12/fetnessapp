@@ -3,14 +3,14 @@ import 'package:new_app/consts/colors.dart';
 import 'package:new_app/consts/images.dart';
 import 'package:new_app/custom_widget/my_text.dart';
 
-class HalfLocust extends StatefulWidget {
-  const HalfLocust({super.key});
+class StraightarmPlank extends StatefulWidget {
+  const StraightarmPlank({super.key});
 
   @override
-  State<HalfLocust> createState() => _HalfLocustState();
+  State<StraightarmPlank> createState() => _StraightarmPlankState();
 }
 
-class _HalfLocustState extends State<HalfLocust> {
+class _StraightarmPlankState extends State<StraightarmPlank> {
   int min = 00;
   int second = 00;
 
@@ -51,13 +51,13 @@ class _HalfLocustState extends State<HalfLocust> {
                 color: litegray8Color,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Image.asset(hlp, fit: BoxFit.cover),
+              child: Image.asset(straightarmPlank2, fit: BoxFit.cover),
             ),
             const SizedBox(
               height: 10,
             ),
             const MyText(
-              text: "Half Locust Pose",
+              text: "Straight-arm Plank",
               fontBold: FontWeight.bold,
               fontSize: 18,
             ),
@@ -105,13 +105,13 @@ class _HalfLocustState extends State<HalfLocust> {
               fontBold: FontWeight.bold,
               fontSize: 18,
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(height: 10,),
             const MyText(
               text:
-              "Lorem ipsum dolor sit amet consectetur."
-                  " Pretium sit penatibus tortor vulputate auctor placerat aliquam."
-                  " Lacinia accumsan cum tellus mauris sed cursus nisl aliquet urna."
-                  " Ac volutpat in gravida orci.",textColor: litegray9Color,fontSize: 14,
+              "Lorem ipsum dolor sit amet consectetur. Pretium sit "
+                  "\npenatibus tortor vulputate auctor placerat aliquam. Lacinia "
+                  "\naccumsan cum tellus mauris sed cursus nisl aliquet urna. Ac "
+                  "\nvolutpat in gravida orci.",textColor: litegray9Color,fontSize: 14,
             ),
             const SizedBox(height: 20,),
             const MyText(
@@ -150,7 +150,7 @@ class _HalfLocustState extends State<HalfLocust> {
                     color: litegreen2Color,
                     borderRadius: BorderRadius.circular(25),
                   ),
-                  child: const Center(child: MyText(text: "Close",)),
+                  child: const Center(child: MyText(text: "Close",fontSize: 16,)),
                 )
               ],
             ),

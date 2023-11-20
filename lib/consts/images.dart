@@ -57,3 +57,13 @@ const chidPose2= "asset/images/chidspose2.png";
 const crescentLowLung= "asset/images/crescentlowlunge.png";
 const crescentLowLung2= "asset/images/crescentlowlunge2.png";
 
+
+///day6 img
+const straightarmPlank= "asset/images/straightarmplank.png";
+const straightarmPlank2= "asset/images/straightarmplank2.png";
+const birdDog= "asset/images/birddog.png";
+const birdDog2= "asset/images/birddog2.png";
+const bridge= "asset/images/bridge.png";
+const bridge2= "asset/images/bridge2.png";
+const fbirdDog= "";
+
